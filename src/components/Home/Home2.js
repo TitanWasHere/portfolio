@@ -50,7 +50,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Figma and Photoshops{" "}</b> 
+                <b className="purple"> Figma and Photoshop{" "}</b> 
               </i>
                 making the base for web applications based on 
               <i>
