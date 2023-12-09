@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import TDLogo from "../../Assets/Projects/TechDowserLogo.png"
 import iss4u from "../../Assets/Projects/issHome.png";
+import minesweeper from "../../Assets/Projects/minesweeper.png"
 import itinerary from "../../Assets/Projects/ItineraryPrague.png"
 
 function Projects() {
@@ -15,7 +16,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
@@ -38,6 +39,17 @@ function Projects() {
               title="ISS4U"
               description="Project for the university course 'Software Engineering', it's an application to manage tasks on the International Space Station (ISS) and displaying data about that. The website is made with node.js and vue.js"
               ghLink="https://github.com/SE-T28"
+              
+            />
+            
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={minesweeper}
+              isBlog={false}
+              title="Minesweeper"
+              description="It's a simple minesweeper game made in Java with the framework javafx for the GUI, made for fun on july 2022 "
+              ghLink="https://github.com/TitanWasHere/minesweeper"
               
             />
             
