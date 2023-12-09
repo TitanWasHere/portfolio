@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import TDLogo from "../../Assets/Projects/TechDowserLogo.png"
 import iss4u from "../../Assets/Projects/issHome.png";
 import itinerary from "../../Assets/Projects/ItineraryPrague.png"
 
@@ -17,6 +18,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TDLogo}
+              isBlog={false}
+              title="Tech Dowser"
+              description="Project for the university course 'Human Computer Interaction', it's a prototype of a potability water detector with a connected application which contains its position and data of the detected water"
+              driveLink="https://drive.google.com/drive/u/0/folders/1YsaFhWc3lekWEJWNR3tJBMYu7FnEPIeK"
+              
+            />
+            
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={iss4u}
@@ -34,7 +48,7 @@ function Projects() {
               imgPath={itinerary}
               isBlog={false}
               title="Itinerary trip to Prague"
-              description="First website for the 4th year of high schools, it's a full responsive website made only in HTML5+CSS3, and it's the itinerary for our school trip to Prague"
+              description="First website for the 4th year of high schools, it's a full responsive website made only in HTML5+CSS3, and it's the itinerary for our school trip to Prague. It's my first website made full responsive without CSS3 frameworks"
               demoLink="http://andreagravilibarcellonax.altervista.org/Sito_Praga/home.html"
               
             />
