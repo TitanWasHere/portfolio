@@ -21,7 +21,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Hello there! I'm <span className="purple">Andrea</span> and welcome to my website, which is the tip of the iceberg of myself! 
-              I'm a software developer with great interest in astronomy and always open to new projects and learn new technologies!
+              I'm a software developer with great interest in technology and always open to new projects!
               
               <br />
               <br />I am currently fluent and involved in programming languages like
@@ -30,18 +30,17 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new 
+              My field of interest is building new 
               <i>
-                <b className="purple"> Web Technologies and Products </b> but
-                also in areas related to{" "}
+                <b className="purple"> Web Technologies and Products </b> but i'm also interested in areas related to{" "}
                 <b className="purple">
                   Robotics
-                </b>
+                </b>.
               </i>
               <br />
               <br />
-              I'm very flexible becaue whenever I can I try to design myself all what I want, making the 
-              <b className="purple"> design</b> and using 
+              I'm very flexible and whenever I can, I try to 
+              <b className="purple"> design{" "}</b>and use 
               <i>
                 <b className="purple">
                   {" "}
@@ -50,15 +49,15 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Figma and Photoshop{" "}</b> 
+                <b className="purple"> Figma and Photoshop</b> 
               </i>
-                making the base for web applications based on 
+                ,{" "}developing the base for web applications based on 
               <i>
                 <b className="purple"> Node.js </b>
               </i>
                 using javascript frameworks like 
               <i>
-                <b className="purple"> React.js and Vue.js </b>
+                <b className="purple"> React.js </b> and <b className="purple"> Vue.js </b>
               </i>
             </p>
           </Col>

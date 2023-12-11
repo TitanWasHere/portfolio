@@ -13,11 +13,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Andrea Gravili </span>
-            from <span className="purple"> Brescia, Italia.</span>
+            from <span className="purple"> Brescia, Italy.</span>
             <br />
-            I am currently pursuing the bechelor degree in <span className="purple">Computer science</span> at University of Trento.
+            I am currently pursuing the bachelor degree in <span className="purple">Computer science</span> at University of Trento.
             <br />
-            I started my IT path when I started the high schools in computer science and I went on the same road since that.
+            I started my IT path when I attended high school in computer science and I went on the same road since that.
             <br />
             <br />
             Those my hobbies, just to take a break from all this informatic stuff:
@@ -38,9 +38,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            Maybe in the future I'll make some new stuff{" "}
+            
           </p>
-          <footer className="blockquote-footer"></footer>
+          
         </blockquote>
       </Card.Body>
     </Card>
