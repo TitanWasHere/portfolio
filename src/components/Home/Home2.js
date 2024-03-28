@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am currently fluent and involved in programming languages like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, Javascript and Python. Now developing software with the use of ROS </b>
               </i>
               <br />
               <br />
@@ -114,6 +114,10 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              <li className="social-icons">
+              
+
+              </li> 
             </ul>
           </Col>
         </Row>
