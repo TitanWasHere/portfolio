@@ -6,6 +6,7 @@ import TDLogo from "../../Assets/Projects/TechDowserLogo.png"
 import iss4u from "../../Assets/Projects/issHome.png";
 import minesweeper from "../../Assets/Projects/minesweeper.png"
 import itinerary from "../../Assets/Projects/ItineraryPrague.png"
+import ari_logo from "../../Assets/Projects/ari.jpg"
 
 function Projects() {
   return (
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ari_logo}
+              isBlog={false}
+              title="ARI thesis"
+              description="My thesis for the university course 'Computer science', it's a project about the use of ROS for the development of a robot that can interact with people and move autonomously. This project is made with ROS, Python and an interface with Javascript."
+              ghLink="https://github.com/TitanWasHere/ARI-thesis"
+              
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
