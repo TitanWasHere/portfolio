@@ -21,13 +21,24 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"https://d3rchgs4e1mj7u.cloudfront.net/wp-content/uploads/2023/03/24125029/VENETO-STARS.jpg"}
+              isBlog={false}
+              title="Safe-HILLS"
+              description="Winners of the challenge 'Veneto Stars' with the project 'Safe-HILLS', a project that aims to improve the water management of the unesco site of the prosecco hills in Conegliano and Valdobbiadene. "
+              demoLink="https://venetostars.com/"
+              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ari_logo}
               isBlog={false}
               title="ARI thesis"
               description="My thesis for the university course 'Computer science', it's a project about the use of ROS for the development of a robot that can interact with people and move autonomously. This project is made with ROS, Python and an interface with Javascript."
-              ghLink="https://github.com/TitanWasHere/ARI-thesis"
+              ghLink="http://andreagravilibarcellonax.altervista.org/Sito_Praga/home.html"
               
             />
           </Col>
