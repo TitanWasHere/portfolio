@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/CV-Andrea_Gravili-ENG.pdf";
+import cv_europass from "../../Assets/CV-Andrea_Gravili-Europass.pdf";
+import cv from "../../Assets/Andrea_Gravili_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -20,36 +21,74 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Col md={5} style={{ paddingBottom: 20 }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={cv_europass}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV Europass
+          </Button>
+          </Col>
+          <Col md={5} style={{ paddingBottom: 20 }}>
+          <Button
+            variant="primary"
+            href={cv}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+          </Col>
+          
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+          <Col md={5} style={{ paddingBottom: 20 }}>
+            <Document file={cv_europass} className="d-flex justify-content-center">
+              <Page pageNumber={1} scale={width > 786 ? 1.7/1.8 : 0.6/1.8} />
+            </Document>
+            <Document file={cv_europass} className="d-flex justify-content-center">
+              <Page pageNumber={2} scale={width > 786 ? 1.7/1.8 : 0.6/1.8} />
+            </Document>
+          </Col>
+
+          <Col md={5} style={{ paddingBottom: 20 }}>
+            <Document file={cv} className="d-flex justify-content-center">
+              <Page pageNumber={1} scale={width > 786 ? 1.7/1.8 : 0.6/1.8} />
+            </Document>
+            <Document file={cv} className="d-flex justify-content-center">
+              <Page pageNumber={2} scale={width > 786 ? 1.7/1.8 : 0.6/1.8} />
+            </Document>
+          </Col>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Col md={5} style={{ paddingBottom: 20 }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={cv_europass}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV Europass
+          </Button>
+          </Col>
+          <Col md={5} style={{ paddingBottom: 20 }}>
+          <Button
+            variant="primary"
+            href={cv}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
+          </Col>
         </Row>
       </Container>
     </div>
