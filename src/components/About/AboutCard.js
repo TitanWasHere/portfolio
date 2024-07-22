@@ -15,7 +15,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Andrea Gravili </span>
             from <span className="purple"> Brescia, Italy.</span>
             <br />
-            I am currently pursuing the bachelor degree in <span className="purple">Computer science</span> at University of Trento.
+            On 07/2024 I have pursued the bachelor's degree in <span className="purple">Computer science</span> at University of Trento.
             <br />
             I started my IT path when I attended high school in computer science and I went on the same road since that.
             <br />

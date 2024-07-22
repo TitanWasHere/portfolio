@@ -34,10 +34,10 @@ function Techstack() {
         <FaC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp />
+        <FaPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaPython />
+        <DiJava/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaRProject/>
@@ -52,7 +52,7 @@ function Techstack() {
         <BiLogoMongodb/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava/>
+        <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
