@@ -9,7 +9,7 @@ const WorkTimeline = () => {
           <div id="content">
             
             <ul className="timeline-1 text-white">
-              <li className="event" data-date=" 08/2024 - current">
+              <li className="event" data-date="current">
 
                 <h4 className="experience-title mb-3">ROBOTICS SOFTWARE ENGINEER</h4>
                 <h3 className="university-name">University of Trento</h3>
