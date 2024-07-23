@@ -259,6 +259,10 @@ button:focus {
   padding-top: 80px !important;
 }
 
+.img{
+  text-align: center;
+}
+
 .home-section {
   position: relative;
   z-index: -1;
