@@ -11,12 +11,19 @@ const Timeline = () => {
             <ul className="timeline-1 text-white">
               
               <li className="event" data-date="09/2021 - 07/2024">
-                <h4 className="mb-3">Bachelor's degree in Computer Science</h4>
-                <p>University of Trento</p>
+                <h4 className="experience-title mb-3">Bachelor's degree in Computer Science</h4>
+                <h3 className="university-name">University of Trento</h3>
+                <p className="skills">
+                With my thesis "A receptionist robot at work: the case of ARI" I graduated in Computer Science at the University of Trento.
+                Here I learned the basics of computer science, software engineering, robotics, and artificial intelligence.
+                </p>
               </li>
               <li className="event" data-date="09/2016 - 06/2021">
-                <h4 className="mb-3 pt-3">High school degree in Computer Science</h4>
-                <p>ITIS G. Perlasca, Vobarno (BS)</p>
+                <h4 className="experience-title mb-3">High school degree in Computer Science</h4>
+                <h3 className="university-name">ITIS G. Perlasca</h3>
+                <p className="skills">
+                I graduated in Computer Science at ITIS G. Perlasca in 2021. Here I learned the basis of web development, computer architecture, and networking.
+                </p>
               </li>
             </ul>
           </div>
