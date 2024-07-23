@@ -81,7 +81,18 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/work"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdOutlineWorkOutline
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Work
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
