@@ -790,6 +790,7 @@ button:focus {
 
 .timeline-1 .event .mb-3{
   color: #865DFF;
+  font-weight: 1000 !important;
 }
 
 .timeline-1 .event:before,

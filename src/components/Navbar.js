@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
+import { MdOutlineWorkOutline } from "react-icons/md";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -79,6 +80,8 @@ function NavBar() {
                 Education
               </Nav.Link>
             </Nav.Item>
+
+            
 
             <Nav.Item>
               <Nav.Link

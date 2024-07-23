@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const Timeline = () => {
+const WorkTimeline = () => {
   return (
     <Container className="py-5">
       <Row>
@@ -26,4 +26,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default WorkTimeline;
