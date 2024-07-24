@@ -1,5 +1,5 @@
 html {
-  --section-background-color: linear-gradient(
+  /*--section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
     rgba(12, 8, 24, 0.904)
@@ -9,6 +9,18 @@ html {
     to bottom left,
     rgba(17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
+  );*/
+
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(22, 0, 66, 0.582),
+    rgba(0, 0, 0, 0.904)
+  );
+
+  --image-gradient: linear-gradient(
+    to bottom left,
+    rgba(22, 0, 66, 0.582),
+    rgba(0, 0, 0, 0.904)
   );
 
   /*--imp-text-color: #c770f0;*/
@@ -266,7 +278,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: url(./Assets/home-bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -469,7 +481,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(30, 98, 207, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -479,7 +491,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(21, 105, 240, 0.547) !important;
 }
 
 .blog-card {
