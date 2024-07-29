@@ -25,6 +25,26 @@ function ResumeNew() {
     }
   };
 
+  const getDimension = (width) => {
+    if(width >= 1450){
+      return 1;
+    }
+    if(width >= 1200){
+      return 0.8;
+    }
+    if(width >= 1100){
+      return 0.7;
+    }
+    if(width >= 940){
+      return 0.65;
+    }
+    if(width > 786){
+      return 0.5;
+    }else{
+      return 0.6;
+    }
+  }
+
   return (
     <div>
       <Container fluid className="resume-section">
@@ -60,19 +80,19 @@ function ResumeNew() {
         <Row className="resume">
           <Col md={5} style={{ paddingBottom: 20 }}>
             <Document file={cv} className="d-flex justify-content-center">
-              <Page pageNumber={1} scale={width > 786 ? 1.7 / 1.8 : 0.6} />
+              <Page pageNumber={1} scale={getDimension(width)} />
             </Document>
             <Document file={cv} className="d-flex justify-content-center">
-              <Page pageNumber={2} scale={width > 786 ? 1.7 / 1.8 : 0.6} />
+              <Page pageNumber={2} scale={getDimension(width)} />
             </Document>
           </Col>
 
           <Col md={5} style={{ paddingBottom: 20 }}>
             <Document file={cv_europass} className="d-flex justify-content-center">
-              <Page pageNumber={1} scale={width > 786 ? 1.7 / 1.8 : 0.6} />
+              <Page pageNumber={1} scale={getDimension(width)} />
             </Document>
             <Document file={cv_europass} className="d-flex justify-content-center">
-              <Page pageNumber={2} scale={width > 786 ? 1.7 / 1.8 : 0.6} />
+              <Page pageNumber={2} scale={getDimension(width)} />
             </Document>
           </Col>
         </Row>
