@@ -9,7 +9,6 @@ const WorkTimeline = () => {
           <div id="content">
             
             <ul className="timeline-1 text-white">
-              {/*
               <li className="event" data-date="current">
 
                 <h4 className="experience-title mb-3">ROBOTICS SOFTWARE ENGINEER</h4>
@@ -17,7 +16,7 @@ const WorkTimeline = () => {
                 <p className="skills">
                 Skills: ROS, C++, Python, software for the interaction with an humanoid robot, path planning, problem solving. 
                 </p>
-              </li>*/}
+              </li>
               <li className="event" data-date=" 02/2024 - 06/2024">
                 <h4 className="experience-title mb-3">ROBOTICS SW. ENGINEER INTERN</h4>
                 <h3 className="university-name">University of Trento</h3>
