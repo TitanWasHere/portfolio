@@ -9,7 +9,11 @@ const Timeline = () => {
           <div id="content">
             
             <ul className="timeline-1 text-white">
-              
+            <li className="event" data-date="09/2024 - current">
+                <h4 className="experience-title mb-3">Master's degree in Artificial Intelligence and Robotics</h4>
+                <h3 className="university-name">Sapienza, University of Rome</h3>
+                
+              </li>
               <li className="event" data-date="09/2021 - 07/2024">
                 <h4 className="experience-title mb-3">Bachelor's degree in Computer Science</h4>
                 <h3 className="university-name">University of Trento</h3>
