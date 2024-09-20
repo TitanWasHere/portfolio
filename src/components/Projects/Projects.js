@@ -7,6 +7,7 @@ import iss4u from "../../Assets/Projects/issHome.png";
 import minesweeper from "../../Assets/Projects/minesweeper.png"
 import itinerary from "../../Assets/Projects/ItineraryPrague.png"
 import ari_logo from "../../Assets/Projects/ari.jpg"
+import htv_preview from "../../Assets/Projects/HTV_preview.png"
 
 function Projects() {
   return (
@@ -20,6 +21,17 @@ function Projects() {
           Here are a few projects I've worked on, but also achievements/awards.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={htv_preview}
+              isBlog={false}
+              title="HTV website"
+              description="Website for Hydro-Tech Vision, a project that aims to improve the water management of the vineyards using remote sensing and ground datas."
+              
+              demoLink="https://titanwashere.github.io/HTV-website/"
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
