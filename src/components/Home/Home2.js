@@ -39,27 +39,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I'm very flexible and whenever I can, I try to 
-              <b className="purple"> design{" "}</b>and use 
-              <i>
-                <b className="purple">
-                  {" "}
-                  UI softwares
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Figma and Photoshop</b> 
-              </i>
-                ,{" "}developing the base for web applications based on 
-              <i>
-                <b className="purple"> Node.js </b>
-              </i>
-                using javascript frameworks like 
-              <i>
-                <b className="purple"> React.js </b> and <b className="purple"> Vue.js </b>
-              </i>
-              <br />
+              
               Actually I'm working on a project (HTV) that involves the use of satellite data and machine learning to improve the <b className="purple">water management</b> in the vineyards.
               If you are interested in my work, don't hesitate to contact me!
               <br />
