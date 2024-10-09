@@ -32,10 +32,10 @@ function Home2() {
               <br />
               My field of interest is building new 
               <i>
-                <b className="purple"> Web Technologies and Products </b> but i'm also interested in areas related to{" "}
+                <b className="purple"> Robotics </b> and <b className="purple"> Artificial Intelligence </b> but i'm also interested in areas related to{" "}
                 <b className="purple">
-                  Robotics
-                </b>.
+                  Web Development
+                </b> and <b className="purple"> remote sensing</b>.
               </i>
               <br />
               <br />
@@ -59,6 +59,11 @@ function Home2() {
               <i>
                 <b className="purple"> React.js </b> and <b className="purple"> Vue.js </b>
               </i>
+              <br />
+              Actually I'm working on a project (HTV) that involves the use of satellite data and machine learning to improve the <b className="purple">water management</b> in the vineyards.
+              If you are interested in my work, don't hesitate to contact me!
+              <br />
+              <a href="https://titanwashere.github.io/HTV-website/" target="_blank" rel="noreferrer" className="purple">HTV website</a>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
