@@ -9,6 +9,20 @@ const WorkTimeline = () => {
           <div id="content">
             
             <ul className="timeline-1 text-white">
+            <li className="event" data-date="10/2024 - current">
+
+              <h4 className="experience-title mb-3">Robotics Software Developer</h4>
+              <h3 className="university-name">STT: Sapienza Technology Team</h3>
+              <p className="skills">
+              Skills: ROS, ROS2, C++, Python, Arduino. Developing software for a Rover robot, mainly the navigation stack and interaction with the firmware of the robot.
+              </p>
+              <h4 className="goals-title">Goals achieved:</h4>
+              <ul className="goals-list">
+                <li>Robot interaction with people at the Rovereto Wired Next Festival 2024</li>
+                <li>Software for the interaction with an humanoid robot</li>
+                <li>Interaction with vocal commands or with a easy to use GUI</li>
+              </ul>
+              </li>
               <li className="event" data-date="07/2024 - 10/2024">
 
                 <h4 className="experience-title mb-3">ROBOTICS SOFTWARE ENGINEER</h4>
