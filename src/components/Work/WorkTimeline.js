@@ -11,7 +11,7 @@ const WorkTimeline = () => {
             <ul className="timeline-1 text-white">
             <li className="event" data-date="10/2024 - current">
 
-              <h4 className="experience-title mb-3">Robotics Software Developer</h4>
+              <h4 className="experience-title mb-3">ROBOTICS SOFTWARE ENGINEER</h4>
               <h3 className="university-name">STT: Sapienza Technology Team</h3>
               <p className="skills">
               Skills: ROS, ROS2, C++, Python, Arduino. Developing software for a Rover robot, mainly the navigation stack and interaction with the firmware of the robot.
