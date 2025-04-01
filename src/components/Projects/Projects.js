@@ -8,6 +8,7 @@ import minesweeper from "../../Assets/Projects/minesweeper.png"
 import itinerary from "../../Assets/Projects/ItineraryPrague.png"
 import ari_logo from "../../Assets/Projects/ari.jpg"
 import htv_preview from "../../Assets/Projects/HTV_preview.png"
+import manipulator from "../../Assets/Projects/manipulator.jpg"
 
 function Projects() {
   return (
@@ -21,7 +22,17 @@ function Projects() {
           Here are a few projects I've worked on, but also achievements/awards.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={manipulator}
+              isBlog={false}
+              title="Robot kinematics using machine learning"
+              description="Project for the university course 'Machine Learning', it's a project that aims to use machine learning to calculate the kinematics of a robot manipulator. The project is made with Python and Tensorflow."
 
+              ghLink="https://github.com/TitanWasHere/Autonomous-kinematics-manipulator"
+            />
+          </Col>
+              
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={htv_preview}
