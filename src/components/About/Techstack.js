@@ -17,7 +17,6 @@ import{
 import{
   FaPython,
   FaRProject,
-  FaDocker,
   FaVuejs,
 } from "react-icons/fa";
 import{
@@ -60,9 +59,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaDocker />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <FaVuejs/>
       </Col>
