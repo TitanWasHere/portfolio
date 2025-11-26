@@ -9,6 +9,8 @@ import itinerary from "../../Assets/Projects/ItineraryPrague.png"
 import ari_logo from "../../Assets/Projects/ari.jpg"
 import htv_preview from "../../Assets/Projects/HTV_preview.png"
 import manipulator from "../../Assets/Projects/manipulator.jpg"
+import dvrkPng from "../../Assets/Projects/dvrk_all_ph.png"
+import franka from "../../Assets/Projects/franka.webp"
 
 function Projects() {
   return (
@@ -24,6 +26,26 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={dvrkPng}
+              isBlog={false}
+              title="Medical Robotics Project"
+              description="Project for the university course 'Medical Robotics', developing advanced robotic systems for medical applications. Working with surgical robotics, autonomous systems, and precision control algorithms."
+              ghLink="https://github.com/TitanWasHere/DaVinci_Unity"
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={franka}
+              isBlog={false}
+              title="Robot Control Comparison Study"
+              description="Comparative analysis project for the 'Robot Control' course, evaluating different control strategies and algorithms for robotic systems. Implemented and tested various control approaches including PID, adaptive control, and model-based methods."
+              ghLink="https://github.com/TitanWasHere/Franka_control_comparison"
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={manipulator}
               isBlog={false}
               title="Robot kinematics using machine learning"
@@ -33,7 +55,19 @@ function Projects() {
             />
           </Col>
               
-        <Col md={4} className="project-card">
+        
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ari_logo}
+              isBlog={false}
+              title="ARI Receptionist Robot - Bachelor Thesis"
+              description="Bachelor's thesis titled 'A receptionist robot at work: the case of ARI'. Developed a complete ROS-based system for autonomous robot navigation and human interaction at MUSE (Trento Museum of Sciences) and University of Trento. Includes path planning, problem solving, and a JavaScript interface."
+              ghLink="https://github.com/TitanWasHere/ARI-thesis"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={htv_preview}
               isBlog={false}
@@ -54,29 +88,6 @@ function Projects() {
               
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ari_logo}
-              isBlog={false}
-              title="ARI thesis"
-              description="My thesis for the university course 'Computer science', it's a project about the use of ROS for the development of a robot that can interact with people and move autonomously. This project is made with ROS, Python and an interface with Javascript."
-              ghLink="http://andreagravilibarcellonax.altervista.org/Sito_Praga/home.html"
-              
-            />
-          </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={TDLogo}
-              isBlog={false}
-              title="Tech Dowser"
-              description="Project for the university course 'Human Computer Interaction', it's a prototype of a potability water detector with a connected application which contains its position and data of the detected water"
-              driveLink="https://drive.google.com/drive/u/0/folders/1YsaFhWc3lekWEJWNR3tJBMYu7FnEPIeK"
-              
-            />
-            
-          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -85,17 +96,6 @@ function Projects() {
               title="ISS4U"
               description="Project for the university course 'Software Engineering', it's an application to manage tasks on the International Space Station (ISS) and displaying data about that. The website is made with node.js and vue.js"
               ghLink="https://github.com/SE-T28"
-              
-            />
-            
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={minesweeper}
-              isBlog={false}
-              title="Minesweeper"
-              description="It's a simple minesweeper game made in Java with the framework javafx for the GUI, made for fun on july 2022 "
-              ghLink="https://github.com/TitanWasHere/minesweeper"
               
             />
             

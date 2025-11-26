@@ -14,8 +14,22 @@ const WorkTimeline = () => {
               <h4 className="experience-title mb-3">ROBOTICS SOFTWARE ENGINEER</h4>
               <h3 className="university-name">STT: Sapienza Technology Team</h3>
               <p className="skills">
-              Skills: ROS, ROS2, C++, Python, Arduino. Developing software for a Rover robot, mainly the navigation stack and interaction with the firmware of the robot.
+              Skills: ROS, ROS2, C++, Python, Arduino. Developing software for a Rover robot, mainly the navigation stack and interaction with the firmware of the robot. <br/>
+              From 10/2025 I'm the head of the <i>software navigation team</i>.
               </p>
+              </li>
+              <li className="event" data-date=" 09/2025 - current">
+
+                <h4 className="experience-title mb-3">TEACHING ASSISTANT</h4>
+                <h3 className="university-name">Sapienza, university of Rome</h3>
+                <p className="course-description">
+                  <em>University tutor for the course: Machine Learning</em>
+                </p>
+                <p className="skills">
+                  Skills: python, Tensorflow, teaching, communication, leadership
+                </p>
+
+                
               </li>
               <li className="event" data-date="07/2024 - 10/2024">
 
@@ -46,7 +60,7 @@ const WorkTimeline = () => {
               </li>
               <li className="event" data-date=" 09/2023 - 02/2024">
 
-                <h4 className="experience-title mb-3">UNIVERSITY TUTOR</h4>
+                <h4 className="experience-title mb-3">TEACHING ASSISTANT</h4>
                 <h3 className="university-name">University of Trento</h3>
                 <p className="course-description">
                   <em>University tutor for the course: software engineering</em>

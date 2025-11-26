@@ -37,14 +37,8 @@ function Home2() {
                   Web Development
                 </b> and <b className="purple"> remote sensing</b>.
               </i>
-              <br />
-              <br />
-              
-              Actually I'm working on a project (HTV) that involves the use of satellite data and machine learning to improve the <b className="purple">water management</b> in the vineyards.
-              If you are interested in my work, don't hesitate to contact me!
-              <br />
-              <a href="https://titanwashere.github.io/HTV-website/" target="_blank" rel="noreferrer" className="purple">HTV website</a>
-            </p>
+
+              </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

@@ -12,7 +12,10 @@ const Timeline = () => {
             <li className="event" data-date="09/2024 - current">
                 <h4 className="experience-title mb-3">Master's degree in Artificial Intelligence and Robotics</h4>
                 <h3 className="university-name">Sapienza, University of Rome</h3>
-                
+                <p className="skills">
+                Studying the concepts of robotics, artificial intelligence, control, all in a software engineering perspective. 
+                I'm studying also simulation softwares and advanced programming concepts.
+                </p>
               </li>
               <li className="event" data-date="09/2021 - 07/2024">
                 <h4 className="experience-title mb-3">Bachelor's degree in Computer Science</h4>
