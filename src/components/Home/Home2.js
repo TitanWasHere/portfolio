@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am currently fluent and involved in programming languages like
               <i>
-                <b className="purple"> C++, Javascript and Python. Now developing software with the use of ROS </b>
+                <b className="purple"> C++, Python and Matlab. Now developing software with the use of ROS for robotics.</b>
               </i>
               <br />
               <br />
@@ -34,8 +34,8 @@ function Home2() {
               <i>
                 <b className="purple"> Robotics </b> and <b className="purple"> Artificial Intelligence </b> but i'm also interested in areas related to{" "}
                 <b className="purple">
-                  Web Development
-                </b> and <b className="purple"> remote sensing</b>.
+                  art
+                </b> and <b className="purple"> astronomy</b>.
               </i>
 
               </p>

@@ -21,7 +21,7 @@ function AboutCard() {
             I started my IT path when I attended high school in computer science and I went on the same road since then.
             <br />
             <br />
-            Those my hobbies, just to take a break from all this informatic stuff:
+            Those are my hobbies, just to take a break from all this informatic stuff:
           </p>
           <ul>
             <li className="about-activity">
