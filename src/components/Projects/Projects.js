@@ -11,6 +11,7 @@ import htv_preview from "../../Assets/Projects/HTV_preview.png"
 import manipulator from "../../Assets/Projects/manipulator.jpg"
 import dvrkPng from "../../Assets/Projects/dvrk_all_ph.png"
 import franka from "../../Assets/Projects/franka.webp"
+import ingenuity from "../../Assets/Projects/ingenuity.png"
 
 function Projects() {
   return (
@@ -26,7 +27,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TDLogo}
+              imgPath={ingenuity}
               isBlog={false}
               title="Ingenuity Dynamic Feedback Linearization"
               description="Project for the university course 'Modeling and control of UAVs', it's a project that aims to implement a dynamic feedback linearization controller for the NASA Ingenuity helicopter on Mars."
