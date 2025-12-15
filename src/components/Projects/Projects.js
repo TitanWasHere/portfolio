@@ -26,6 +26,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={TDLogo}
+              isBlog={false}
+              title="Ingenuity Dynamic Feedback Linearization"
+              description="Project for the university course 'Modeling and control of UAVs', it's a project that aims to implement a dynamic feedback linearization controller for the NASA Ingenuity helicopter on Mars."
+              ghLink="https://github.com/TitanWasHere/ingenuity_dynamic_feedback_linearization"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={dvrkPng}
               isBlog={false}
               title="Medical Robotics Project"
