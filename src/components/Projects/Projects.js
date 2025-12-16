@@ -2,15 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import TDLogo from "../../Assets/Projects/TechDowserLogo.png"
 import iss4u from "../../Assets/Projects/issHome.png";
-import minesweeper from "../../Assets/Projects/minesweeper.png"
 import itinerary from "../../Assets/Projects/ItineraryPrague.png"
 import ari_logo from "../../Assets/Projects/ari.jpg"
 import htv_preview from "../../Assets/Projects/HTV_preview.png"
 import manipulator from "../../Assets/Projects/manipulator.jpg"
 import dvrkPng from "../../Assets/Projects/dvrk_all_ph.png"
-import franka from "../../Assets/Projects/franka.webp"
+import franka from "../../Assets/Projects/franka.jpg"
 import ingenuity from "../../Assets/Projects/ingenuity.png"
 
 function Projects() {
