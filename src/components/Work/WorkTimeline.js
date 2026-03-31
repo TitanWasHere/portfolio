@@ -18,7 +18,7 @@ const WorkTimeline = () => {
               From 10/2025 I'm the head of the <i>software navigation team</i>.
               </p>
               </li>
-              <li className="event" data-date=" 09/2025 - current">
+              <li className="event" data-date=" 09/2025 - 02/2026">
 
                 <h4 className="experience-title mb-3">TEACHING ASSISTANT</h4>
                 <h3 className="university-name">Sapienza, university of Rome</h3>
