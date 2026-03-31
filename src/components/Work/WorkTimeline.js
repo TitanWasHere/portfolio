@@ -23,7 +23,7 @@ const WorkTimeline = () => {
                 <h4 className="experience-title mb-3">TEACHING ASSISTANT</h4>
                 <h3 className="university-name">Sapienza, university of Rome</h3>
                 <p className="course-description">
-                  <em>University tutor for the course: Machine Learning</em>
+                  <em>University tutor for the course: Machine Learning, tought at the first year of the Master's degree in Artificial Intelligence and Robotics</em>
                 </p>
                 <p className="skills">
                   Skills: python, Tensorflow, teaching, communication, leadership
