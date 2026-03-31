@@ -109,7 +109,7 @@ function Projects() {
       isBlog: false,
       title: "Photography portfolio website",
       description: "Portfolio website for a friend of mine, created using Astro, it is a photo and graphics gallery with a custom design and a custom CMS to manage the photos and the graphics. The website is fully responsive and optimized for SEO.",
-      ghLink: "https://github.com/TitanWasHere/portfolio_dre",
+      demoLink: "https://titanwashere.github.io/portfolio_dre/",
     },
     {
       categories: ["Websites design"],
