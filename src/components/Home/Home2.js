@@ -4,7 +4,6 @@ import myImg from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 
 function Home2() {
